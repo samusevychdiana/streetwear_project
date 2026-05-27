@@ -107,7 +107,8 @@
     height: 400px;
     padding: 24px;
     background-color: var(--section-color);
-    border-radius: 8px;
+    border: 2px solid var(--secondary-text-color);
+    overflow: hidden;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
     color: rgb(0, 0, 0);
 }
@@ -145,13 +146,21 @@
     border: 2px solid var(--secondary-text-color);
     overflow: hidden;
     background-color: var(--background);
+    width: 250px;
+    height: 350px;
+    margin-top: 20px;
 }
 
 .modal-text {
-    max-width: 500px;
+    max-width: 550px;
+    font-family: var(--primary-text);
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .modal-text h2 {
     font-family: var(--title-text);
     color: var(--additional);
+    margin-top: 30px;
 }
